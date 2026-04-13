@@ -6,6 +6,7 @@ import ApplicationForm from './pages/ApplicationForm';
 import TrackStatus from './pages/TrackStatus';
 import AdminLogin from './pages/AdminLogin';
 import AdminPanel from './pages/AdminPanel';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <SpeedInsights />
       </div>
     </Router>
   );
